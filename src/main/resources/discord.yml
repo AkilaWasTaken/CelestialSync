@@ -1,0 +1,69 @@
+MODULES:
+  DISCORD-STATUS: true
+  AVATAR_THUMBNAIL: true
+
+DISCORD:
+  TOKEN: "DiscordToken"
+  GUILD: ChangeMe
+  CHANNEL: ChangeMe
+  STATUS:
+    TYPE: WATCHING
+    MESSAGE: "Synced Users"
+
+
+EMBED_COLORS:
+  WRONG_CHANNEL: "#FFFFFF"
+  EXISTING_CODE: "#FFFFFF"
+  ALREADY_VERIFIED: "#FFFFFF"
+  NEW_CODE: "#FFFFFF"
+  UNSYNC_SUCCESSFUL: "#FFFFFF"
+  UNSYNC_ERROR: "#FFFFFF"
+  NO_PERMISSION: "#FFFFFF"
+
+EMBED_TITLES:
+  WRONG_CHANNEL: "❌ Wrong Channel"
+  EXISTING_CODE: "🔒 Existing Verification Code"
+  ALREADY_VERIFIED: "❌ Already Verified"
+  NEW_CODE: "🆕 Your Verification Code"
+  UNSYNC_SUCCESSFUL: "✅ Unsync Successful"
+  UNSYNC_ERROR: "❌ Unsync Error"
+  NO_PERMISSION: "❌ No Permission"
+
+EMBED_DESCRIPTIONS:
+  EXISTING_CODE: |
+    You already have an active Sync Session, but we've got you covered!
+    Your verification code is: `%existingCode%` 
+
+  NEW_CODE: |
+    **Verification Code:** `%code%`
+    Use this code on the Minecraft Server to link your accounts.
+
+  ALREADY_VERIFIED: |
+    Your Discord account is already linked to a Minecraft account.
+
+  UNSYNC_SUCCESSFUL: |
+    **Unsync Successful**
+    The account linked to %user%'s Discord account has been successfully unsynced.
+
+  UNSYNC_ERROR: |
+    **Unsync Error**
+    %user%'s Discord account is not currently synced to any Minecraft Account.
+
+  WRONG_CHANNEL: |
+    **Wrong Channel**
+    Please use %channel%.
+
+  NO_PERMISSION: |
+    **Wrong Permission**
+    You do not have the required permission to run this command.
+
+EMBED_FOOTERS:
+  GENERATED_BY_SYNC_COMMAND: "%time%"
+  GENERATED_BY_UNSYNC_COMMAND: "%time%"
+  NO_PERMISSION: "%time%"
+
+ERROR_MESSAGES:
+  GENERATE_CODE_ERROR: "An error occurred while generating the code."
+  UNSYNC_ERROR: "An error occurred trying to unsync the player."
+
+

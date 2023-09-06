@@ -1,0 +1,32 @@
+MODULES:
+  REWARD:
+    ENABLED: true
+    COMMANDS:
+      - "eco give %player% 1000"
+  ANNOUNCER:
+    ENABLED: true
+    ANNOUNCEMENT:
+      - "&dSync Success: &7%player%"
+      - "&7&oMinecraft & Discord united!"
+      - "&r"
+      - "&d&lUnlocked Rewards:"
+      - "&r"
+      - "&d- &71000 Coins"
+      - "&d- &7Discord Special Rank"
+      - "&r"
+      - "&7&oObtain the same rewards by"
+      - "&7&oLinking your account using /sync"
+  DISCORD_ROLE:
+    ENABLED: true
+    ROLE_ID: "RoleID"
+    ROLE_NOT_FOUND: "&c❌ &fDiscord role not found."
+    ROLE_ID_NOT_CONFIGURED: "&c❌ &fDiscord role ID not configured."
+    NICKNAME_UPDATED_AND_ROLE_GRANTED: "&a✔ &fNickname updated and role granted."
+    ROLE_GRANTED_ERROR: "&c❌ Error granting role."
+MESSAGES:
+  SYNTAX: "&c❌ &fIncorrect syntax. Usage: &e/sync <code>"
+  ALREADY_VERIFIED: "&a✔ &fYour account is already linked to a discord account!"
+  NICKNAME_UPDATED: "&e✨ &fYour Discord nickname has been updated to your Minecraft username."
+  VERIFIED_AND_UPDATED: "&a✔ &fVerification successful! Your Discord nickname has been updated."
+  CODE_NOT_FOUND: "&c❌ &fVerification code not found."
+  ERROR_WHILE_VERIFYING: "&c❌ &fAn error occurred while verifying. Please try again later."

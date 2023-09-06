@@ -1,0 +1,4 @@
+name: ElementalSync
+version: '${project.version}'
+main: dev.celestial.sync.ElementalSyncPlugin
+api-version: '1.13'
