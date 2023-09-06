@@ -1,4 +1,4 @@
-name: ElementalSync
+name: CelestialSync
 version: '${project.version}'
-main: dev.celestial.sync.ElementalSyncPlugin
+main: dev.celestial.sync.CelestialSyncPlugin
 api-version: '1.13'
